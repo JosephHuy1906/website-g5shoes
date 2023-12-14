@@ -1,0 +1,142 @@
+.login_regin {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.login {
+  width: 400px;
+  border-right: 1px solid lightgray;
+  padding: 50px;
+}
+
+.login input {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+.login h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.login label {
+  font-weight: 500;
+  line-height: 40px;
+}
+.login p {
+  padding: 10px;
+  font-weight: 500;
+}
+.login b {
+  color: blue;
+  font-weight: 500;
+  height: 50px;
+  line-height: 30px;
+}
+.btn_login {
+  display: flex;
+  margin-top: 10px;
+}
+.btn_login input[type="submit"] {
+  width: 200px;
+  height: 35px;
+  margin-right: 40px;
+  margin-top: 0;
+  background: orchid;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding-left: 0;
+  cursor: pointer;
+}
+.btn_login input[type="submit"]:hover {
+  background: gray;
+}
+
+.btn_login a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.btn_login a:hover {
+  color: red;
+}
+.error {
+  display: block;
+  color: red;
+  padding-left: 10px;
+  margin-bottom: 5px;
+}
+.regin {
+  width: 400px;
+  padding: 50px;
+}
+.regin input {
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+.regin h2 {
+  font-weight: 400;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.regin label {
+  font-weight: 500;
+}
+.btn_regin {
+  display: flex;
+  margin-top: 10px;
+}
+.btn_regin input[type="submit"] {
+  width: 200px;
+  height: 35px;
+  margin-right: 40px;
+  margin-top: 0;
+  background: orange;
+  border: none;
+  color: white;
+  padding-left: 0;
+  font-size: 15px;
+  cursor: pointer;
+}
+.btn_regin input[type="submit"]:hover {
+  background: gray;
+}
+
+.btn_regin input[type="reset"] {
+  width: 200px;
+  height: 35px;
+  margin-right: 40px;
+  margin-top: 0;
+  background: orchid;
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding-left: 0;
+  cursor: pointer;
+}
+.btn_regin input[type="reset"]:hover {
+  background: gray;
+}
+.regin input[type="file"] {border: none;margin-bottom: 0;margin-top: 0;}
+.title {margin-left: 10%;height: 80px;line-height: 80px;}
+.title .home {font-weight: 500;}
+
+@media only screen and (max-width: 715px) {
+  .login {width: 365px;padding: 45px;border-right: none;margin: 0 auto;}
+  .regin {width: 365px;padding: 45px;margin: 0 auto;}
+  .login_regin {display: flex;margin-left: 1.5rem;flex-direction: column;}
+}
+

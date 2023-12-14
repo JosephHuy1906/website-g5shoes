@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+            integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.min.css">
+        <link rel="stylesheet" href="./scss/grid.css">
+        <link rel="stylesheet" href="./scss/main.css">
+
+    </head>
+
+    <body>
+        <div id="root">
+            <header class="header">
+                <div class="grid wide">
+                    <div class="header__wrapper">
+                        <div class="header__actions">
+                            <div class="header__actions-menu">
+                                <i class="fa-solid fa-bars header__actions-menu-icon"></i>
+                                <h3 class="header__actions-menu-title">Menu</h3>
+                            </div>
+                            <div class="header__actions-search">
+                                <button class="header__actions-btn-search">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                                <input type="text" class="header__actions-search-input" placeholder="Search">
+                            </div>
+                        </div>
+                        <!-- header logo -->
+                        <a href="#" class="header__logo">
+                            <img src="./images/logo.png" alt="" class="header__logo-img">
+                        </a>
+                        <!-- header actions information-->
+                        <div class="header__information">
+                            <ul class="header__information-list">
+                                <li class="header__information-item">
+                                    <a href="#" class="header__information-link">
+                                        <i class="fa-regular fa-user"></i>
+                                    </a>
+                                </li>
+                                <li class="header__information-item">
+                                    <a href="#" class="header__information-link ting">
+                                        <i class="fa-regular fa-bell"></i>
+                                        <span class="header__information-count-information">2</span>
+                                    </a>
+                                </li>
+                                <li class="header__information-item">
+                                    <a href="#" class="header__information-link">
+                                        <i class="fa-regular fa-heart"></i>
+                                    </a>
+                                </li>
+                                <li class="header__information-item">
+                                    <a href="#" class="header__information-link cart">
+                                        <svg viewBox="0 0 26.6 25.6" class="header__information-link-cart"><polyline fill="none" points="2 1.7 5.5 1.7 9.6 18.3 21.2 18.3 24.6 6.1 7 6.1" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="2.5"></polyline><circle cx="10.7" cy="23" r="2.2" stroke="none"></circle><circle cx="19.7" cy="23" r="2.2" stroke="none"></circle></svg>
+                                        <span class="header__information-count-cart">2</span>            
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="main">
+                <div class="grid wide">
+                    <h3 class="main-part">Trang chủ > Chi tiết sản phẩm</h3>
+                    <div class="main__content">
+                        <div class="row">
+                            <div class="col l-6 m-6 c-12">
+                                <div class="main__show">
+                                    <div class="main__show-img" style="background-image: url(./images/giay-nike-free-run-5-0-1412910744.png)"></div>
+                                    <div class="main__show-control">
+                                        <div class="main__show-control-slider"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-6 m-6 c-12">
+                                <div class="main__information">
+                                    <!-- product title -->
+                                    <h1 class="main__information-title">FLASH SALE - Giày Nike thể thao, màu xanh nguyên bản</h1>
+                                    <!-- product price -->
+                                    <div class="main__information-price">
+                                        <span class="main__information-old-price">280.000đ</span>
+                                        <span class="main__information-current-price">200.000đ</span>
+                                        <span class="main__information-sale">sale: 28%</span>
+                                    </div>
+                                    <!-- product color -->
+                                    <div class="main__information-color">
+                                        <h3 class="main__information-color-title">Màu sắc: <span class="main__information-color-current-color">Đen</span></h3>
+                                        <div class="main__information-color-box">
+                                            <div class="main__information-color-checkmark active">
+                                                <div class="main__information-color-checkmark-center"></div>
+                                            </div>
+                                            <div class="main__information-color-checkmark">
+                                                <div class="main__information-color-checkmark-center"></div>
+                                            </div>
+                                            <div class="main__information-color-checkmark">
+                                                <div class="main__information-color-checkmark-center"></div>
+                                            </div>
+                                            <div class="main__information-color-checkmark">
+                                                <div class="main__information-color-checkmark-center"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- product size -->
+                                    <div class="main__information-size">
+                                        <h3 class="main__information-size-title">Kích thước giày: </h3>
+                                        <div class="main__information-size-wrapper">
+                                            <div class="main__information-size-box active">
+                                                <span class="main__information-size-number">36</span>
+                                            </div>
+                                            <div class="main__information-size-box">
+                                                <span class="main__information-size-number">37</span>
+                                            </div>
+                                            <div class="main__information-size-box">
+                                                <span class="main__information-size-number">38</span>
+                                            </div>
+                                            <div class="main__information-size-box">
+                                                <span class="main__information-size-number">39</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- product amount -->
+                                    <div class="main__information-amount">
+                                        <h3 class="main__information-amount-title">Số lượng: </h3>
+                                        <div class="main__information-amount-quantity">
+                                            <label for="" class="main__information-amount-quantity-decrease">
+                                                <i class="fa-solid fa-minus"></i>
+                                            </label>
+                                            <input type="number" value="1" min="1" max="99" class="main__information-amount-quantity-input">
+                                            <label for="" class="main__information-amount-quantity-decrease">
+                                                <i class="fa-solid fa-plus"></i>
+                                            </label>
+                                        </div>
+                                    </div>
+
+                                    <!-- product order -->
+                                    <div class="main__information-order">
+                                        <button class="main__information-order-add-cart">
+                                            <i class="fa-solid fa-cart-plus main__information-order-add-cart-icon"></i>
+                                            <span>Thêm vào giỏ hàng</span>
+                                        </button>
+                                        <button class="main__information-buy-now">Mua ngay</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="main__detail">
+                        <h2 class="main__detail-title">Chi tiết sản phẩm</h2>
+                        <p class="main__detail-desc">Với chất liệu 100% Poly được xử lý hoàn thiện với công nghệ Quickdry (nhanh khô) và Wicking (thấm hút nhanh) - loại chất liệu được Coolmate sử dụng trong áo polo thể thao và nhận được rất nhiều sự phản hồi tích cực và yêu thích từ khách hàng, chắc chắn sẽ đem đến cho bạn sự thoải mái và vận động hiệu quả nhất! </p>
+                        <p class="main__detail-desc">Với chất liệu 100% Poly được xử lý hoàn thiện với công nghệ Quickdry (nhanh khô) và Wicking (thấm hút nhanh) - loại chất liệu được Coolmate sử dụng trong áo polo thể thao và nhận được rất nhiều sự phản hồi tích cực và yêu thích từ khách hàng, chắc chắn sẽ đem đến cho bạn sự thoải mái và vận động hiệu quả nhất! </p>
+                    </div>
+                    <div class="main__review">
+                        <h2 class="main__review-title">3/10 Đánh giá</h2>
+                        <div class="main__review-wrapper">
+                            <div class="main__review-content">
+                                <div class="main__review-content-avatar">
+                                    <img src="./images/huy.jpg" alt="" class="main__review-content-img">
+                                </div>
+                                <div class="main__review-content-text">
+                                    <h3 class="main__review-content-name">Huy Quang Nguyen</h3>
+                                    <p class="main__review-content-timer">10-7-2022</p>
+                                    <p class="main__review-content-comment">Sản phẩm chất lượng tốt, đặt từ ngày 7 đến ngày 9 đã ship về có mặt tại nhà, hàng hoá đẹp đẽ, 5 sao ạ</p>
+                                    <div class="main__review-content-interactive">
+                                        <button class="main__review-content-interactive-btn like">
+                                            <i class="fa-regular fa-thumbs-up"></i>
+                                        </button>
+                                        <button class="main__review-content-interactive-btn dislike">
+                                            <i class="fa-regular fa-thumbs-down"></i>
+                                        </button>
+                                        <button class="main__review-content-interactive-btn comment">
+                                            <i class="fa-regular fa-comment"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- comment 2 -->
+                            <div class="main__review-content">
+                                <div class="main__review-content-avatar">
+                                    <img src="./images/huy.jpg" alt="" class="main__review-content-img">
+                                </div>
+                                <div class="main__review-content-text">
+                                    <h3 class="main__review-content-name">Huy Quang Nguyen</h3>
+                                    <p class="main__review-content-timer">10-7-2022</p>
+                                    <p class="main__review-content-comment">Sản phẩm chất lượng tốt, đặt từ ngày 7 đến ngày 9 đã ship về có mặt tại nhà, hàng hoá đẹp đẽ, 5 sao ạ</p>
+                                    <div class="main__review-content-interactive">
+                                        <button class="main__review-content-interactive-btn like">
+                                            <i class="fa-regular fa-thumbs-up"></i>
+                                        </button>
+                                        <button class="main__review-content-interactive-btn dislike">
+                                            <i class="fa-regular fa-thumbs-down"></i>
+                                        </button>
+                                        <button class="main__review-content-interactive-btn comment">
+                                            <i class="fa-regular fa-comment"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- comment 3 -->
+                            <div class="main__review-content">
+                                <div class="main__review-content-avatar">
+                                    <img src="./images/huy.jpg" alt="" class="main__review-content-img">
+                                </div>
+                                <div class="main__review-content-text">
+                                    <h3 class="main__review-content-name">Huy Quang Nguyen</h3>
+                                    <p class="main__review-content-timer">10-7-2022</p>
+                                    <p class="main__review-content-comment">Sản phẩm chất lượng tốt, đặt từ ngày 7 đến ngày 9 đã ship về có mặt tại nhà, hàng hoá đẹp đẽ, 5 sao ạ</p>
+                                    <div class="main__review-content-interactive">
+                                        <button class="main__review-content-interactive-btn like">
+                                            <i class="fa-regular fa-thumbs-up"></i>
+                                        </button>
+                                        <button class="main__review-content-interactive-btn dislike">
+                                            <i class="fa-regular fa-thumbs-down"></i>
+                                        </button>
+                                        <button class="main__review-content-interactive-btn comment">
+                                            <i class="fa-regular fa-comment"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="main__review-load-more">
+                            <button class="main__review-load-more-btn">Tải thêm</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-3">
+                            <div class="footer__wrapper">
+                                <div class="footer__wrapper-logo">
+                                    <div class="footer__wrapper-logo-avatar">
+                                        <img src="./images/logo.png" alt="" class="footer__wrapper-logo-img">
+                                    </div>
+                                    <h3 class="footer__wrapper-logo-name">G5 Shoes</h3>
+                                </div>
+                                <ul class="footer__wrapper-list">
+                                    <li class="footer__wrapper-item">
+                                        <p class="footer__wrapper-text">Điện thoại: 
+                                            <a href="tel:0362.354.902" class="footer__wrapper-link">0362.354.902</a>
+                                        </p>
+                                    </li>
+                                    <li class="footer__wrapper-item">
+                                        <p class="footer__wrapper-text">Email: 
+                                            <a href="tel:0362.354.902" class="footer__wrapper-link">tuancvps19280@fpt.edu.vn</a>
+                                        </p>
+                                    </li>
+                                    <li class="footer__wrapper-item social">
+                                        <p class="footer__wrapper-text">Social Network: 
+                                            <div class="footer__wrapper-social-box">
+                                                <a href="#" class="footer__wrapper-social youtube">
+                                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube-square" class="svg-inline--fa fa-youtube-square " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z"></path></svg>
+                                                </a>
+                                                <a href="#" class="footer__wrapper-social facebook">
+                                                    <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-square" class="svg-inline--fa fa-facebook-square " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.3V327.7h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0 -48-48z"></path></svg>
+                                                </a>
+                                                <a href="#" class="footer__wrapper-social">                                        
+                                                    <svg xmlns="http://www.w3.org/2000/svg" class="svg-instagram"  viewBox="0 0 48 48" width="48px" height="48px"><radialGradient id="yOrnnhliCrdS2gy~4tD8ma" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"/><stop offset=".328" stop-color="#ff543f"/><stop offset=".348" stop-color="#fc5245"/><stop offset=".504" stop-color="#e64771"/><stop offset=".643" stop-color="#d53e91"/><stop offset=".761" stop-color="#cc39a4"/><stop offset=".841" stop-color="#c837ab"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><radialGradient id="yOrnnhliCrdS2gy~4tD8mb" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"/><stop offset=".999" stop-color="#4168c9" stop-opacity="0"/></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"/><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"/><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"/><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"/></svg>  
+                                                </a>
+                                            </div>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="footer__wrapper">
+                                <h2 class="footer__wrapper-title">Vê chúng tôi</h2>
+                                <ul class="footer__wrapper-list">
+                                    <li class="footer__wrapper-item">
+                                        <a href="#" class="footer__wrapper-link">Cơ hội</a>
+                                    </li>
+                                    <li class="footer__wrapper-item">
+                                        <a href="#" class="footer__wrapper-link">Việc làm</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="footer__wrapper">
+                                <h2 class="footer__wrapper-title">Thanh toán</h2>
+                                <ul class="footer__wrapper-list">
+                                    <li class="footer__wrapper-item">
+                                        <a href="#" class="footer__wrapper-link">Thanh toán qua visa</a>
+                                    </li>
+                                    <li class="footer__wrapper-item">
+                                        <a href="#" class="footer__wrapper-link">Thanh toán qua viettelpay</a>
+                                    </li>
+                                    <li class="footer__wrapper-item">
+                                        <a href="#" class="footer__wrapper-link">Thanh toán qua momo</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col l-3">
+                            <div class="footer__wrapper">
+                                <h2 class="footer__wrapper-title">Hệ thống G5 Shoes</h2>
+                                <ul class="footer__wrapper-list">
+                                    <li class="footer__wrapper-item">
+                                        <p class="footer__wrapper-location">Hà Nội: 57 Quan Hoa, Cầu Giấy, Hà Nội</p>
+                                    </li>
+                                    <li class="footer__wrapper-item">
+                                        <p class="footer__wrapper-location">Khánh Hòa : 272 Thống Nhất, PhườngPhương Sơn, TP.Nha Trang</p>
+                                    </li>
+                                    <li class="footer__wrapper-item">
+                                        <p class="footer__wrapper-location">TP.HCM: 258/3 Dương Quảng Hàm, Phường 5, Quận Gò Vấp, TP.HCM</p>
+                                    </li>
+                                    <li class="footer__wrapper-item">
+                                        <p class="footer__wrapper-location">Vĩnh Long: 55F Phạm Thái Bường, Phường 4</p>
+                                    </li>
+                                    <li class="footer__wrapper-item">
+                                        <p class="footer__wrapper-location">Ninh Thuận: 267 Ngô Gia Tự, phường Tấn Tài, Tp.Phan Rang- Tháp Chàm</p>
+                                    </li>
+                                    <li class="footer__wrapper-item">
+                                        <p class="footer__wrapper-location">Hậu Giang: 22 Nguyễn Công Trứ, Khu Phố 1, Phường 1, TP.Vị Thanh</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="footer__license">© 2022 G5 Shoes. Tất cả các quyền được bảo lưu.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

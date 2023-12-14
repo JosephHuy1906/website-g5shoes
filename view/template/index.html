@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="fontawesome-free-6.1.1-web/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/grid.css">
+    <link rel="stylesheet" href="css/trangchu.css" />
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="grid wide">
+                <div class="header__wrapper">
+                    <div class="header__actions">
+                        <div class="header__actions-menu">
+                            <i class="fa-solid fa-bars header__actions-menu-icon"></i>
+                            <h3 class="header__actions-menu-title">Menu</h3>
+                        </div>
+                        <div class="header__actions-search">
+                            <button class="header__actions-btn-search">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </button>
+                            <input type="text" class="header__actions-search-input" placeholder="Search">
+                        </div>
+                    </div>
+                    <!-- header logo -->
+                    <a href="#" class="header__logo">
+                        <img src="./images/logo-chinh.jpg" alt="" class="header__logo-img">
+                    </a>
+                    <!-- header actions information-->
+                    <div class="header__information">
+                        <ul class="header__information-list">
+                            <li class="header__information-item">
+                                <a href="#" class="header__information-link">
+                                    <i class="fa-regular fa-user"></i>
+                                </a>
+                            </li>
+                            <li class="header__information-item">
+                                <a href="#" class="header__information-link ting">
+                                    <i class="fa-regular fa-bell"></i>
+                                    <span class="header__information-count-information">2</span>
+                                </a>
+                            </li>
+                            <li class="header__information-item">
+                                <a href="#" class="header__information-link">
+                                    <i class="fa-regular fa-heart"></i>
+                                </a>
+                            </li>
+                            <li class="header__information-item">
+                                <a href="#" class="header__information-link cart">
+                                    <svg viewBox="0 0 26.6 25.6" class="header__information-link-cart">
+                                        <polyline fill="none" points="2 1.7 5.5 1.7 9.6 18.3 21.2 18.3 24.6 6.1 7 6.1"
+                                            stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                                            stroke-width="2.5"></polyline>
+                                        <circle cx="10.7" cy="23" r="2.2" stroke="none"></circle>
+                                        <circle cx="19.7" cy="23" r="2.2" stroke="none"></circle>
+                                    </svg>
+                                    <span class="header__information-count-cart">2</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end Header -->
+
+
+        <main class="main__wrapper">
+            <div class="grid wide">
+                <!-- banner -->
+                <div class="banner">
+                    <div class="slide">
+                        <a class="banner__btn left" href="#">
+                            <button>
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                        </a>
+                        <div class="slide__show-img" style="background-image: url(http://file.hstatic.net/1000341630/collection/banner-giay-sneaker_513d785b2ee94ce9905683e4e0fe37ff.jpg)"></div>
+                        <a class="banner__btn right" href="">
+                            <button>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- product -->
+                <div class="main__product">
+                    <!-- new product -->
+                    <div class="main__product-wrapper">
+                        <h1 class="main__product-title">Sản phẩm mới</h1>
+                        <div class="main__product-content">
+                            <div class="row">
+                                <!-- product 1 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- product 2 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- product 3 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- product 4 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- hot product -->
+                    <div class="main__product-wrapper">
+                        <h1 class="main__product-title">Sản phẩm hot</h1>
+                        <div class="main__product-content">
+                            <div class="row">
+                                <!-- product 1 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- product 2 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- product 3 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- product 4 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- promotion product -->
+                    <div class="main__product-wrapper">
+                        <h1 class="main__product-title">Sản phẩm khuyến mãi</h1>
+                        <div class="main__product-content">
+                            <div class="row">
+                                <!-- product 1 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- product 2 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- product 3 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- product 4 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture">
+                                            <div class="main__product-box-img" style="background-image: url(./images/giay-mau-show.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title">Nike air</h3>
+                                        <div class="main__product-box-price">
+                                            <span class="main__product-box-current-price">180.000đ</span>
+                                            <span class="main__product-box-old-price">100.000đ</span>
+                                        </div>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>
+                                            
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="main__product-wrapper">
+                        <h1 class="main__product-title">Tin tức</h1>
+                        <div class="main__product-content">
+                            <div class="row">
+                                <!-- product 1 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture news">
+                                            <div class="main__product-box-img news" style="background-image: url(https://file.hstatic.net/1000282067/file/new-balance-550-release-date_8142186bc207493da37ac410f95bbb11_1024x1024.jpg)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title news">Aimé Leon Dore là gì? Tại sao bản collab New Blance 550 x Aimé Leon Dore lại có giá lên</h3>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>  
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- news 2 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture news">
+                                            <div class="main__product-box-img news" style="background-image: url(http://file.hstatic.net/1000282067/file/_off-white-nike-dunk-low-the-50-black-silver-dm1602-001-release-info-2_d2452dc3498c4b7f8f7b134700d8c976_2048x2048.jpg)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title news">Những sự thật bí ẩn đằng sau thương hiệu thời trang nổi tiếng của Đức - Adidas</h3>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>  
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- news 3 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture news">
+                                            <div class="main__product-box-img news" style="background-image: url(https://file.hstatic.net/1000282067/article/www.highsnobiety__42__26b858ec8fae436aa8031e79948bf05b_large.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title news">OFF-WHITE ™ x Church's: có gì phía sau bản hợp tác cuối cùng của Virgil Abloh</h3>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>  
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- news 4 -->
+                                <div class="col l-3">
+                                    <a href="#" class="main__product-box">
+                                        <div class="main__product-box-picture news">
+                                            <div class="main__product-box-img news" style="background-image: url(https://file.hstatic.net/1000282067/article/www.highsnobiety__38__c6388e678d784f40ac3cd421e97ce6a2_large.png)"></div>
+                                        </div>
+                                        <h3 class="main__product-box-title news">BST Dior x Travis Scott ra mắt hoành tráng tại tuần lễ thời trang Paris</h3>
+                                        <div class="main__product-box-color">
+                                            <a href="#" class="main__product-box-color-title">Xem chi tiết</a>  
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>

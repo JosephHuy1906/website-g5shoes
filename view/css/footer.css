@@ -1,0 +1,121 @@
+.footer {
+  background-color: #181821;
+  padding: 60px 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.footer__wrapper-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer__wrapper-logo-avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.footer__wrapper-logo-img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.footer__wrapper-logo-name {
+  margin-left: 10px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.footer__wrapper-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+.footer__wrapper-item {
+  margin: 14px 0;
+}
+
+.footer__wrapper-text {
+  font-size: 1.4rem;
+  color: #a9b3bb;
+}
+
+.footer__wrapper-link {
+  font-size: 1.4rem;
+  color: #a9b3bb;
+  text-decoration: none;
+  transition: all linear 0.2s;
+}
+.footer__wrapper-link:hover {
+  color: #fff;
+}
+
+.footer__wrapper-social-box {
+  display: flex;
+  align-items: center;
+}
+
+.footer__wrapper-item.social {
+  display: flex;
+  align-items: center;
+}
+
+.footer__wrapper-social {
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__wrapper-social svg {
+  width: 30px;
+  height: 30px;
+}
+.footer__wrapper-social .svg-instagram {
+  width: 36px;
+  height: 36px;
+}
+.footer__wrapper-social.youtube {
+  color: red;
+}
+.footer__wrapper-social.facebook {
+  color: #4867aa;
+}
+
+.footer__wrapper-title {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 14px 0 0 0;
+}
+
+.footer__wrapper-location {
+  font-size: 1.4rem;
+  color: #a9b3bb;
+  margin: 0;
+  line-height: 1.8rem;
+}
+
+.footer__license {
+  text-align: center;
+  font-size: 1.4rem;
+  color: #a9b3bb;
+  margin-top: 50px;
+}
+.header__actions-search.siderbar{
+  display: none;
+}
+.hideoff-mobile{display: none;}
+
+@media only screen and (max-width: 715px) {
+  .header__actions-search.siderbar{display: block;display: flex;}
+  .footer{padding: 60px 20px;}
+  .hideoff-mobile{display: block;}
+}
